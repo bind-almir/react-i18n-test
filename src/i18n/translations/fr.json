@@ -1,0 +1,8 @@
+{
+  "translation": {
+    "hello world": "Bonjour le monde",
+    "hello {name}": "Bonjour {name}",
+    "hello {name} and {name}": "Bonjour {name} et {name}",
+    "hello {name} and {name} and {name}": "Bonjour {name} et {name} et {name}"
+  }
+}
