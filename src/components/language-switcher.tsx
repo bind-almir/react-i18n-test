@@ -7,8 +7,7 @@ import ApplicationContext from '../context/application-context-provider';
 const LanguageSwitcher: FC = () => {
 
   const ctx = useContext(ApplicationContext);
-  const { i18n } = useTranslation();
-
+  const { t, i18n } = useTranslation();
   const [language, setLanguage] = useState('en-US');
 
   useEffect(() => {
@@ -27,7 +26,7 @@ const LanguageSwitcher: FC = () => {
 
   return (
     <div>
-      <label>Select Language</label>
+      <label>{t('Select Language')}</label>
       <select value={language} onChange={handleLangaugeChange}>
         {
           ctx?.languages && ctx?.languages.map((language) => (
