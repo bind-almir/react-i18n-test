@@ -1,9 +1,10 @@
 {
   "translation": {
     "hello world": "Hello World",
-    "hello {name}": "Hello {name} how are you?",
-    "hello {name} and {name}": "Hello {name} and {name}",
-    "hello {name} and {name} and {name}": "Hello {name} and {name} and {name}",
+    "welcome": {
+      "to": "Welcome to {{location}}",
+      "world": "Welcome World"
+    },
     "Select Language": "Select Language"
   }
 }

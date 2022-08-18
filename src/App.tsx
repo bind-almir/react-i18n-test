@@ -12,8 +12,10 @@ function App() {
           <LanguageSwitcher />
         </div>
         <div className="App">
-          {t('hello world')}
+          <p>{t('hello world')}</p>
+          <p>{t('welcome.to', { location: 'Miami' })}</p>
         </div>
+
       </>
     </ApplicationContextProvider>
   );
