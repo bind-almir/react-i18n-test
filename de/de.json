@@ -1,10 +1,10 @@
 {
   "translation": {
-    "hello world": "Bonjour le monde",
+    "hello world": "Hello World",
     "welcome": {
-      "to": "Bienvenue {{location}}",
-      "world": "monde"
+      "to": "Welcome to {{location}}",
+      "world": "Welcome World"
     },
-    "Select Language": "Sélectionner la langue"
+    "Select Language": "Select Language"
   }
 }
