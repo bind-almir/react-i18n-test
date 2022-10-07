@@ -2,9 +2,9 @@
   "translation": {
     "hello world": "Bonjour le monde",
     "welcome": {
-      "to": "Bienvenue {{location}}",
-      "world": "monde"
+      "to": "Bienvenue sur {{location}}",
+      "world": "Bienvenue dans le monde"
     },
-    "Select Language": "Selectionner la langue"
+    "Select Language": "Sélectionner une langue"
   }
 }
